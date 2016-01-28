@@ -190,31 +190,32 @@ a, a:visited {
   background-color: #F9D05B;
 }
 /* line 52, ../sass/_navigation.scss */
+.main-navigation .menu-primary-menu-container,
 .main-navigation .menu-menu-1-container {
   display: table;
   margin: 0 auto;
 }
-/* line 56, ../sass/_navigation.scss */
+/* line 57, ../sass/_navigation.scss */
 .main-navigation ul.menu {
   width: 100%;
 }
-/* line 58, ../sass/_navigation.scss */
+/* line 59, ../sass/_navigation.scss */
 .main-navigation ul.menu li {
   display: inline-block;
 }
-/* line 62, ../sass/_navigation.scss */
+/* line 63, ../sass/_navigation.scss */
 .main-navigation ul.menu li a {
   padding: 20px 28px;
   color: #DC6A36;
   background-color: #F9D05B;
   font-size: 1rem;
 }
-/* line 70, ../sass/_navigation.scss */
+/* line 71, ../sass/_navigation.scss */
 .main-navigation ul.menu li.current-menu-item a {
   color: #fff;
   background-color: #DC6A36;
 }
-/* line 76, ../sass/_navigation.scss */
+/* line 77, ../sass/_navigation.scss */
 .main-navigation ul.menu li:hover a {
   color: #fff;
   background-color: #DC6A36;
