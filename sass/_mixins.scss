@@ -1,0 +1,22 @@
+@mixin transition {
+	-webkit-transition: width 0.25s;
+    transition: width 0.25s;
+}
+@mixin anchor-hover-line {
+	content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    width: 0;
+    height: 8px;
+    background-color: #D8262C;
+    @include transition;
+}
+@mixin anchor-hover-line--hover {
+	width: 100%;
+}
+@mixin box-shadow {
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,83 @@
+.nav-register-now {
+	position: fixed !important;
+	bottom: 20px;
+	right: 20px;
+	padding: 0 !important;
+	a {
+		font-size: 1rem;
+		padding: 12px 20px 12px 36px !important;
+		width: 188px;
+		border-radius: 2px;
+		// border: 1px solid #f7f7f7 !important;
+		text-align: center;
+		@include box-shadow;
+		background-color: $brand-color-3 !important;
+		border: 2px solid $brand-color-3;
+		// z-index: 20;
+		color: #fff !important;
+		// z-index: 20;
+	}
+	a:before {
+		content: "";
+		width: 20px;
+		height: 20px;
+		display: block;
+		position: absolute;
+		background-image: url("http://localhost:8888/wordcamp/wp-content/uploads/2016/01/Ticket_Icon.png");
+		background-size: 100%;
+		left: 18px;
+		top: 16px;
+	}
+	a:hover {
+		background-color: darken($brand-color-3, 5%) !important;
+		border-color: darken($brand-color-3, 5%) !important;
+	}
+}
+// .nav-register-now:before {
+// 	content: "";
+// 	display: block;
+// 	position: absolute;
+// 	width: 200px;
+// 	height: 62px;
+// 	top: -6px;
+// 	left: -6px;
+// 	background-color: $brand-color-3 !important;
+// 	border-radius: 30px;
+// 	z-index: 10;
+// }
+.main-navigation {
+	position: absolute;
+	bottom: 0;
+	background-color: $brand-color-1;
+	.menu-menu-1-container {
+		display: table;
+		margin: 0 auto;
+	}
+	ul.menu {
+		width: 100%;
+		li {
+			// border: 2px solid #000;
+			// margin: 0 5px;
+			display: inline-block;
+			a {
+				padding: 20px 28px;
+				color: $brand-color-3;
+				background-color: $brand-color-1;
+				font-size: 1rem;
+			}
+		}
+		li.current-menu-item  {
+			a {
+				color: #fff;
+				background-color: $brand-color-3;
+			}
+		}
+		li:hover {
+			a {
+				color: #fff;
+				background-color: $brand-color-3;
+			}
+
+		}
+	}
+}

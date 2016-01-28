@@ -1,0 +1,41 @@
+.button {
+	padding: 12px 18px;
+	border-radius: 2px;
+	border: 2px solid #000;
+	text-transform: uppercase;
+	font-size: 1rem;
+}
+#after-header-widgets {
+	.textwidget {
+		width: 100%;	
+		position: absolute;
+		bottom: 100px;
+	}	
+	.hero-section-cta {
+		text-align: center;
+		// left: 50%;
+		// margin-left: -100px;
+		width: 100%;
+		max-width: 1080px;
+		margin: auto;
+		a {
+			@extend .button;
+			background-color: $brand-color-3;
+			border-color: $brand-color-3;
+			color: $brand-color-white;
+			@include transition;
+		}
+		a:hover {
+			background-color: $brand-color-4;
+			border-color: $brand-color-4;
+		}
+	}
+}
+a {
+	color: $brand-color-4;
+	text-decoration: none;	
+	letter-spacing: 1px;
+}
+a:visited {
+	@extend a;
+}

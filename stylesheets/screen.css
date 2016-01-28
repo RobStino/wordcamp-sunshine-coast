@@ -1,0 +1,485 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 1, ../sass/_main.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 4, ../sass/_main.scss */
+html {
+  font-size: 16px;
+}
+
+/* line 7, ../sass/_main.scss */
+body {
+  font-family: 'Lato';
+  color: #555;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat-Regular"), url(https://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYAzyDMXhdD8sAj6OAJTFsBI.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat-Bold"), url(https://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcmaVI6zN22yiurzcBKxPjFE.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url(https://fonts.gstatic.com/s/lato/v11/MDadn8DQ_3oT6kvnUq_2r_esZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lato Bold"), local("Lato-Bold"), url(https://fonts.gstatic.com/s/lato/v11/MgNNr5y1C_tIEuLEmicLmwLUuEpTyoUstqEm5AMlJo4.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lato Italic"), local("Lato-Italic"), url(https://fonts.gstatic.com/s/lato/v11/1KWMyx7m-L0fkQGwYhWwuuvvDin1pK8aKteLpeZ5c0A.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Lato Bold Italic"), local("Lato-BoldItalic"), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEJBw1xU1rKptJj_0jans920.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* line 43, ../sass/_fonts.scss */
+h1 {
+  font-size: 2.4rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 48, ../sass/_fonts.scss */
+h2 {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 53, ../sass/_fonts.scss */
+h3 {
+  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 58, ../sass/_fonts.scss */
+h4 {
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 63, ../sass/_fonts.scss */
+h5 {
+  font-size: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 68, ../sass/_fonts.scss */
+h6 {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 73, ../sass/_fonts.scss */
+p {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+/* line 1, ../sass/_buttons.scss */
+.button, #after-header-widgets .hero-section-cta a, .form-submit .submit, .form-submit .submit:hover {
+  padding: 12px 18px;
+  border-radius: 2px;
+  border: 2px solid #000;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+/* line 9, ../sass/_buttons.scss */
+#after-header-widgets .textwidget {
+  width: 100%;
+  position: absolute;
+  bottom: 100px;
+}
+/* line 14, ../sass/_buttons.scss */
+#after-header-widgets .hero-section-cta {
+  text-align: center;
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+}
+/* line 21, ../sass/_buttons.scss */
+#after-header-widgets .hero-section-cta a {
+  background-color: #DC6A36;
+  border-color: #DC6A36;
+  color: #fff;
+  -webkit-transition: width 0.25s;
+  transition: width 0.25s;
+}
+/* line 28, ../sass/_buttons.scss */
+#after-header-widgets .hero-section-cta a:hover {
+  background-color: #6DDACA;
+  border-color: #6DDACA;
+}
+
+/* line 34, ../sass/_buttons.scss */
+a, a:visited {
+  color: #6DDACA;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+/* line 1, ../sass/_navigation.scss */
+.nav-register-now {
+  position: fixed !important;
+  bottom: 20px;
+  right: 20px;
+  padding: 0 !important;
+}
+/* line 6, ../sass/_navigation.scss */
+.nav-register-now a {
+  font-size: 1rem;
+  padding: 12px 20px 12px 36px !important;
+  width: 188px;
+  border-radius: 2px;
+  text-align: center;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  background-color: #DC6A36 !important;
+  border: 2px solid #DC6A36;
+  color: #fff !important;
+}
+/* line 20, ../sass/_navigation.scss */
+.nav-register-now a:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  background-image: url("http://localhost:8888/wordcamp/wp-content/uploads/2016/01/Ticket_Icon.png");
+  background-size: 100%;
+  left: 18px;
+  top: 16px;
+}
+/* line 31, ../sass/_navigation.scss */
+.nav-register-now a:hover {
+  background-color: #d45c25 !important;
+  border-color: #d45c25 !important;
+}
+
+/* line 48, ../sass/_navigation.scss */
+.main-navigation {
+  position: absolute;
+  bottom: 0;
+  background-color: #F9D05B;
+}
+/* line 52, ../sass/_navigation.scss */
+.main-navigation .menu-menu-1-container {
+  display: table;
+  margin: 0 auto;
+}
+/* line 56, ../sass/_navigation.scss */
+.main-navigation ul.menu {
+  width: 100%;
+}
+/* line 58, ../sass/_navigation.scss */
+.main-navigation ul.menu li {
+  display: inline-block;
+}
+/* line 62, ../sass/_navigation.scss */
+.main-navigation ul.menu li a {
+  padding: 20px 28px;
+  color: #DC6A36;
+  background-color: #F9D05B;
+  font-size: 1rem;
+}
+/* line 70, ../sass/_navigation.scss */
+.main-navigation ul.menu li.current-menu-item a {
+  color: #fff;
+  background-color: #DC6A36;
+}
+/* line 76, ../sass/_navigation.scss */
+.main-navigation ul.menu li:hover a {
+  color: #fff;
+  background-color: #DC6A36;
+}
+
+/* line 1, ../sass/_footer.scss */
+.site-footer {
+  background-color: #6DDACA;
+}
+
+/* line 4, ../sass/_footer.scss */
+#footer-widgets {
+  max-width: 1080px;
+  margin: auto;
+}
+
+/* line 8, ../sass/_footer.scss */
+.site-info {
+  max-width: 1080px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* line 13, ../sass/_footer.scss */
+.site-info p,
+.site-info a {
+  color: #fff;
+}
+
+/* line 1, ../sass/_sections.scss */
+.site-header {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+}
+
+/* line 10, ../sass/_sections.scss */
+.site-title {
+  max-width: 1080px;
+  margin: auto;
+  padding-top: 40px;
+  font-weight: 700;
+  color: #000;
+}
+/* line 17, ../sass/_sections.scss */
+.site-title a {
+  font-size: 0;
+}
+
+/* line 22, ../sass/_sections.scss */
+.site-title:before {
+  content: "";
+  display: block;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-image: url("http://localhost:8888/wordcamp/wp-content/uploads/2016/01/WordCampSC_Logo_Primary.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  left: 50%;
+  margin-left: -150px;
+  margin-bottom: 40px;
+}
+
+/* line 35, ../sass/_sections.scss */
+.site-description {
+  text-align: center;
+  max-width: 1080px;
+  margin: auto;
+  font-size: 2rem;
+}
+
+/* line 2, ../sass/_components.scss */
+.entry-header .entry-meta {
+  font-size: 1rem;
+  color: #bbb;
+}
+
+/* line 7, ../sass/_components.scss */
+footer.entry-meta {
+  color: #bbb;
+  font-size: 1rem;
+}
+/* line 10, ../sass/_components.scss */
+footer.entry-meta .sep {
+  display: none;
+}
+/* line 13, ../sass/_components.scss */
+footer.entry-meta a {
+  font-size: 14px;
+  padding: 3px 8px;
+  background-color: #F9D05B;
+  color: #fff;
+  border-radius: 2px;
+  margin-right: 4px;
+  -webkit-transition: width 0.25s;
+  transition: width 0.25s;
+}
+/* line 22, ../sass/_components.scss */
+footer.entry-meta a:last-child {
+  margin-right: 10px;
+}
+/* line 25, ../sass/_components.scss */
+footer.entry-meta a:hover {
+  background-color: #f8c942;
+}
+
+/* line 30, ../sass/_components.scss */
+.tag-links {
+  font-size: 0;
+}
+/* line 33, ../sass/_components.scss */
+.tag-links a {
+  font-size: 14px;
+  padding: 3px 8px;
+  background-color: #F9D05B;
+  color: #fff;
+  border-radius: 2px;
+  margin-right: 4px;
+  -webkit-transition: width 0.25s;
+  transition: width 0.25s;
+}
+/* line 42, ../sass/_components.scss */
+.tag-links a:last-child {
+  margin-right: 10px;
+}
+/* line 45, ../sass/_components.scss */
+.tag-links a:hover {
+  background-color: #f8c942;
+}
+
+/* line 50, ../sass/_components.scss */
+.comments-link a {
+  font-size: 14px;
+  padding: 3px 8px;
+  background-color: #DC6A36;
+  color: #fff;
+  border-radius: 2px;
+  margin-right: 6px;
+  -webkit-transition: width 0.25s;
+  transition: width 0.25s;
+}
+/* line 59, ../sass/_components.scss */
+.comments-link a:hover {
+  background-color: #d45c25;
+}
+
+/* line 63, ../sass/_components.scss */
+.post {
+  max-width: 680px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+/* line 68, ../sass/_components.scss */
+.comments-area {
+  background-color: #F9D05B;
+  padding: 40px 0;
+  color: #fff;
+}
+/* line 72, ../sass/_components.scss */
+.comments-area .comments-title,
+.comments-area .commentlist,
+.comments-area .comment-respond {
+  max-width: 680px;
+  margin: auto;
+}
+
+/* line 79, ../sass/_components.scss */
+.comments-title {
+  font-size: 1.4rem;
+  margin-bottom: 40px !important;
+}
+
+/* line 83, ../sass/_components.scss */
+.commentlist {
+  list-style: none;
+}
+
+/* line 86, ../sass/_components.scss */
+.comment {
+  border-radius: 2px;
+  background-color: #fff;
+  color: #333;
+  margin-bottom: 40px;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* line 93, ../sass/_components.scss */
+.comment-author {
+  padding: 20px;
+  border-bottom: 2px solid #eee;
+  font-size: 1rem;
+}
+
+/* line 98, ../sass/_components.scss */
+.comment-meta {
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+/* line 102, ../sass/_components.scss */
+.comment-content {
+  padding: 10px 20px;
+}
+
+/* line 105, ../sass/_components.scss */
+.reply {
+  padding: 10px 20px 20px;
+}
+/* line 107, ../sass/_components.scss */
+.reply a {
+  font-size: 14px;
+  padding: 3px 8px;
+  background-color: #DC6A36;
+  color: #fff;
+  border-radius: 2px;
+  margin-right: 6px;
+  -webkit-transition: width 0.25s;
+  transition: width 0.25s;
+}
+/* line 116, ../sass/_components.scss */
+.reply a:hover {
+  background-color: #d45c25;
+}
+
+/* line 121, ../sass/_components.scss */
+.logged-in-as a {
+  color: #DC6A36;
+}
+
+/* line 126, ../sass/_components.scss */
+.comment-form-comment textarea {
+  border: 0;
+}
+
+/* line 131, ../sass/_components.scss */
+.form-submit .submit {
+  background: none;
+  box-shadow: none;
+  background-color: #DC6A36;
+  border-color: #DC6A36;
+  color: #fff;
+  text-shadow: none;
+  -webkit-appearance: none;
+  text-transform: none;
+  letter-spacing: 1px;
+}
+/* line 143, ../sass/_components.scss */
+.form-submit .submit:hover {
+  background: none;
+  box-shadow: none;
+  background-color: #d45c25;
+  border-color: #d45c25;
+  color: #fff;
+  text-shadow: none;
+  -webkit-appearance: none;
+}
+
+/* line 154, ../sass/_components.scss */
+.entry-header,
+.entry-content {
+  max-width: 680px;
+  margin: auto;
+  margin-bottom: 20px;
+}
