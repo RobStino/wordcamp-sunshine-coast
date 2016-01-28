@@ -413,26 +413,71 @@ body {
   border-right: 2px solid #fff;
 }
 
-/* line 1, ../sass/_sections.scss */
-.site-header {
+/* line 3, ../sass/_sections.scss */
+.home .site-header {
   width: 100%;
   position: relative;
+  background-image: url("http://localhost:8888/wordcamp/wp-content/uploads/2016/01/Wordcamp_Sunshine_Coast_Hero_Background_2.jpg");
   background-size: cover;
-  background-color: #6DDACA;
   padding-top: 70px;
   padding-bottom: 300px;
   border: 20px solid #fff;
 }
-
-/* line 24, ../sass/_sections.scss */
-.site-title {
+/* line 26, ../sass/_sections.scss */
+.home .site-title {
   text-align: center;
   max-width: 680px;
   margin: auto;
   padding-top: 40px;
   font-weight: 700;
 }
-/* line 30, ../sass/_sections.scss */
+/* line 32, ../sass/_sections.scss */
+.home .site-title a {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  line-height: 0;
+}
+/* line 41, ../sass/_sections.scss */
+.home .site-title:before {
+  content: "";
+  display: block;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-image: url("http://localhost:8888/wordcamp/wp-content/uploads/2016/01/WordCampSC_Logo_Primary.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  left: 50%;
+  margin-left: -150px;
+  margin-bottom: 20px;
+}
+/* line 55, ../sass/_sections.scss */
+.home .site-description {
+  text-align: center;
+  max-width: 680px;
+  margin: auto;
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* line 69, ../sass/_sections.scss */
+.site-header {
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  padding-bottom: 80px;
+  border: 20px solid #fff;
+}
+
+/* line 78, ../sass/_sections.scss */
+.site-title {
+  text-align: left;
+  max-width: 1080px;
+  margin: auto;
+  font-weight: 700;
+}
+/* line 84, ../sass/_sections.scss */
 .site-title a {
   display: block;
   font-size: 0;
@@ -440,28 +485,24 @@ body {
   line-height: 0;
 }
 
-/* line 39, ../sass/_sections.scss */
+/* line 92, ../sass/_sections.scss */
 .site-title:before {
   content: "";
   display: block;
   position: relative;
-  width: 300px;
-  height: 200px;
-  background-image: url("http://localhost:8888/wordcamp/wp-content/uploads/2016/01/WordCampSC_Logo_Primary_white.png");
+  width: 100px;
+  height: 70px;
+  background-image: url("http://localhost:8888/wordcamp/wp-content/uploads/2016/01/WordCampSC_Logo_Primary.png");
   background-size: 100%;
   background-repeat: no-repeat;
   left: 50%;
-  margin-left: -150px;
-  margin-bottom: 20px;
+  margin-left: -50px;
+  margin-bottom: 30px;
 }
 
-/* line 53, ../sass/_sections.scss */
+/* line 106, ../sass/_sections.scss */
 .site-description {
-  text-align: center;
-  max-width: 680px;
-  margin: auto;
-  font-size: 1rem;
-  color: #fff;
+  display: none;
 }
 
 /* line 2, ../sass/_components.scss */
