@@ -114,8 +114,8 @@ p {
 /* line 9, ../sass/_buttons.scss */
 #after-header-widgets .textwidget {
   width: 100%;
-  position: absolute;
-  bottom: 100px;
+  position: relative;
+  top: -260px;
 }
 /* line 14, ../sass/_buttons.scss */
 #after-header-widgets .hero-section-cta {
@@ -126,16 +126,14 @@ p {
 }
 /* line 21, ../sass/_buttons.scss */
 #after-header-widgets .hero-section-cta a {
-  background-color: #DC6A36;
   border-color: #DC6A36;
-  color: #fff;
+  color: #DC6A36;
   -webkit-transition: width 0.25s;
   transition: width 0.25s;
 }
 /* line 28, ../sass/_buttons.scss */
 #after-header-widgets .hero-section-cta a:hover {
-  background-color: #6DDACA;
-  border-color: #6DDACA;
+  border-color: #E58F06;
 }
 
 /* line 34, ../sass/_buttons.scss */
@@ -143,6 +141,11 @@ a, a:visited {
   color: #6DDACA;
   text-decoration: none;
   letter-spacing: 1px;
+}
+
+/* line 5, ../sass/_layout.scss */
+body {
+  position: relative;
 }
 
 /* line 1, ../sass/_navigation.scss */
@@ -186,8 +189,7 @@ a, a:visited {
 /* line 48, ../sass/_navigation.scss */
 .main-navigation {
   position: absolute;
-  bottom: 0;
-  background-color: #F9D05B;
+  bottom: 20px;
 }
 /* line 52, ../sass/_navigation.scss */
 .main-navigation .menu-primary-menu-container,
@@ -220,73 +222,185 @@ a, a:visited {
   color: #fff;
   background-color: #DC6A36;
 }
+/* line 84, ../sass/_navigation.scss */
+.main-navigation ul.menu li:first-child a {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+/* line 90, ../sass/_navigation.scss */
+.main-navigation ul.menu li:nth-last-child(2) a {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+/* line 97, ../sass/_navigation.scss */
+.menu-toggle {
+  font-size: 0;
+  display: block;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+/* line 105, ../sass/_navigation.scss */
+.menu-toggle:after {
+  content: "menuu";
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* line 113, ../sass/_navigation.scss */
+.main-small-navigation .menu-primary-menu-container .menu,
+.main-small-navigation .menu-menu-1-container .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #6DDACA;
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #fff;
+  padding-top: 20vh;
+}
+/* line 127, ../sass/_navigation.scss */
+.main-small-navigation .menu-primary-menu-container .menu li,
+.main-small-navigation .menu-menu-1-container .menu li {
+  margin-bottom: 20px;
+}
+/* line 130, ../sass/_navigation.scss */
+.main-small-navigation .menu-primary-menu-container .menu a,
+.main-small-navigation .menu-menu-1-container .menu a {
+  color: #fff;
+}
 
 /* line 1, ../sass/_footer.scss */
 .site-footer {
-  background-color: #6DDACA;
+  background-color: #fff;
+  border-top: 2px solid #F9D05B;
 }
 
-/* line 4, ../sass/_footer.scss */
+/* line 5, ../sass/_footer.scss */
 #footer-widgets {
   max-width: 1080px;
   margin: auto;
+  padding: 40px 0;
 }
 
-/* line 8, ../sass/_footer.scss */
+/* line 10, ../sass/_footer.scss */
+#footer-widgets:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 13, ../sass/_footer.scss */
+#footer-widget-1,
+#footer-widget-2,
+#footer-widget-3,
+#footer-widget-4 {
+  width: 25%;
+  display: block;
+  float: left;
+}
+/* line 20, ../sass/_footer.scss */
+#footer-widget-1 .widget-title,
+#footer-widget-2 .widget-title,
+#footer-widget-3 .widget-title,
+#footer-widget-4 .widget-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+/* line 25, ../sass/_footer.scss */
+#footer-widget-1 .menu,
+#footer-widget-2 .menu,
+#footer-widget-3 .menu,
+#footer-widget-4 .menu {
+  list-style: none;
+  margin-left: 0;
+  font-size: 1rem;
+}
+/* line 30, ../sass/_footer.scss */
+#footer-widget-1 li,
+#footer-widget-2 li,
+#footer-widget-3 li,
+#footer-widget-4 li {
+  margin-bottom: 6px;
+}
+
+/* line 34, ../sass/_footer.scss */
+#footer-widget-5 {
+  width: 100%;
+  display: block;
+  float: left;
+  text-align: center;
+  padding: 20px 0;
+}
+/* line 40, ../sass/_footer.scss */
+#footer-widget-5 .footer-wapoolaba {
+  max-width: 100px;
+}
+
+/* line 45, ../sass/_footer.scss */
 .site-info {
-  max-width: 1080px;
+  background-color: #6DDACA;
   margin: auto;
+  text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-/* line 13, ../sass/_footer.scss */
+/* line 52, ../sass/_footer.scss */
 .site-info p,
 .site-info a {
+  display: inline-block;
   color: #fff;
+  font-size: 1rem;
+}
+/* line 59, ../sass/_footer.scss */
+.site-info a:first-child {
+  padding-right: 20px;
+  margin-right: 12px;
+  border-right: 2px solid #fff;
 }
 
 /* line 1, ../sass/_sections.scss */
 .site-header {
   width: 100%;
-  height: 100vh;
   position: relative;
   background-size: cover;
+  background-color: #6DDACA;
+  padding-top: 100px;
+  padding-bottom: 300px;
 }
 
-/* line 10, ../sass/_sections.scss */
+/* line 23, ../sass/_sections.scss */
 .site-title {
-  max-width: 1080px;
+  text-align: center;
+  max-width: 680px;
   margin: auto;
   padding-top: 40px;
   font-weight: 700;
-  color: #000;
 }
-/* line 17, ../sass/_sections.scss */
+/* line 29, ../sass/_sections.scss */
 .site-title a {
-  font-size: 0;
-}
-
-/* line 22, ../sass/_sections.scss */
-.site-title:before {
-  content: "";
   display: block;
-  position: relative;
-  width: 300px;
-  height: 200px;
-  background-image: url("http://localhost:8888/wordcamp/wp-content/uploads/2016/01/WordCampSC_Logo_Primary.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  left: 50%;
-  margin-left: -150px;
-  margin-bottom: 40px;
+  font-size: 4rem;
+  color: #fff;
+  line-height: 5rem;
 }
 
-/* line 35, ../sass/_sections.scss */
+/* line 52, ../sass/_sections.scss */
 .site-description {
   text-align: center;
-  max-width: 1080px;
+  max-width: 680px;
   margin: auto;
   font-size: 1rem;
+  color: #fff;
 }
 
 /* line 2, ../sass/_components.scss */

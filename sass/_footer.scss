@@ -1,17 +1,64 @@
 .site-footer {
-	background-color: $brand-color-4;
+	background-color: #fff;
+	border-top: 2px solid $brand-color-1;
 }
 #footer-widgets {
 	max-width: 1080px;
 	margin: auto;
+	padding: 40px 0;
 }
+#footer-widgets:after {
+	@include clearfix;
+}
+#footer-widget-1,
+#footer-widget-2,
+#footer-widget-3,
+#footer-widget-4 {
+	width: 25%;
+	display: block;
+	float: left;
+	.widget-title {
+		font-size: 1.2rem;
+		font-weight: 700;
+		margin-bottom: 16px;
+	}
+	.menu {
+		list-style: none;
+		margin-left: 0;
+		font-size: 1rem;
+	}
+	li {
+		margin-bottom: 6px;
+	}
+}
+#footer-widget-5 {
+	width: 100%;
+	display: block;
+	float: left;
+	text-align: center;
+	padding: 20px 0;
+	.footer-wapoolaba {
+		max-width: 100px;
+	}
+}
+
 .site-info {
-	max-width: 1080px;
+	background-color: $brand-color-4;
+	// max-width: 1080px;
 	margin: auto;
+	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	p,
 	a {
+		display: inline-block;
 		color: #fff;
+		font-size: 1rem;
+		// padding-left: 0 10px;
+	}
+	a:first-child {
+		padding-right: 20px;
+		margin-right: 12px;
+		border-right: 2px solid #fff;
 	}
 }

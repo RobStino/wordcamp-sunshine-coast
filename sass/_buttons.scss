@@ -8,8 +8,8 @@
 #after-header-widgets {
 	.textwidget {
 		width: 100%;	
-		position: absolute;
-		bottom: 100px;
+		position: relative;
+		top: -260px;
 	}	
 	.hero-section-cta {
 		text-align: center;
@@ -20,14 +20,14 @@
 		margin: auto;
 		a {
 			@extend .button;
-			background-color: $brand-color-3;
+			// background-color: $brand-color-white;
 			border-color: $brand-color-3;
-			color: $brand-color-white;
+			color: $brand-color-3;
 			@include transition;
 		}
 		a:hover {
-			background-color: $brand-color-4;
-			border-color: $brand-color-4;
+			// background-color: $brand-color-4;
+			border-color: $brand-color-2;
 		}
 	}
 }
