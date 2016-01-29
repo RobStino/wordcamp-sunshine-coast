@@ -9,4 +9,11 @@ form.contact-form {
 	    border-radius: 2px;
 	    padding: 8px 12px;
 	}
+	input[type="submit"] {
+		@extend .button;
+		background-color: $brand-color-3;
+		border-color: $brand-color-3;
+		color: $brand-color-white;
+		@include transition;
+	}
 }
