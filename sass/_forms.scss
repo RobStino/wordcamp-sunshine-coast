@@ -11,9 +11,13 @@ form.contact-form {
 	}
 	input[type="submit"] {
 		@extend .button;
+		background: none;
 		background-color: $brand-color-3;
 		border-color: $brand-color-3;
 		color: $brand-color-white;
+		background: #DC6A36;
+	    box-shadow: none;
+	    text-shadow: none;
 		@include transition;
 	}
 }
