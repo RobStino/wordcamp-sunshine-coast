@@ -2,15 +2,15 @@
 .home {
 	.site-header {
 		width: 100%;
-		// height: 100vh;
+		min-height: 100vh;
 		position: relative;
 		// padding: 80px 0;
 		// text-align: center;
-		background-image: url('http://localhost:8888/wordcamp/wp-content/uploads/2016/01/Wordcamp_Sunshine_Coast_Hero_Background_2.jpg');
+		background-image: url('http://localhost:8888/wordcamp/wp-content/uploads/2016/01/Wordcamp_Sunshine_Coast_Hero_Background_6.jpg');
 		background-size: cover;
 		// background-color: $brand-color-4;
 		padding-top: 70px;
-		padding-bottom: 300px;
+		// padding-bottom: 0px;
 		border: 20px solid #fff;
 	}
 	// .site-header:after {
@@ -44,15 +44,16 @@
 		position: relative;
 		width: 300px;
 		height: 200px;
-		background-image: url('http://localhost:8888/wordcamp/wp-content/uploads/2016/01/WordCampSC_Logo_Primary.png');
+		background-image: url('http://localhost:8888/wordcamp/wp-content/uploads/2016/01/WordCampSC_Logo_Primary_White.png');
 		background-size: 100%;
 		background-repeat: no-repeat;
 		left: 50%;
-		margin-left: -150px;
+		margin-left: -170px;
 		margin-bottom: 20px;
 		// margin-top: 10vh;
 	}
 	.site-description {
+		display: block;
 		text-align: center;
 		max-width: 680px;
 		margin: auto;
