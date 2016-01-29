@@ -295,6 +295,13 @@ body {
   color: #fff;
 }
 
+/* line 157, ../sass/_navigation.scss */
+.site-navigation {
+  max-width: 680px;
+  margin: auto;
+  font-size: 1rem;
+}
+
 /* line 1, ../sass/_footer.scss */
 .site-footer {
   background-color: #fff;
