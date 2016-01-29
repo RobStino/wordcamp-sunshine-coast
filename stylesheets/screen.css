@@ -245,12 +245,16 @@ body {
 
 /* line 105, ../sass/_navigation.scss */
 .menu-toggle:after {
-  content: "menuu";
-  font-size: 1rem;
-  color: #fff;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 25px;
+  background-image: url("http://localhost:8888/wordcamp/wp-content/uploads/2016/01/menu-toggle-1.png");
+  background-size: cover;
 }
 
-/* line 113, ../sass/_navigation.scss */
+/* line 118, ../sass/_navigation.scss */
 .main-small-navigation .menu-primary-menu-container .menu,
 .main-small-navigation .menu-menu-1-container .menu {
   position: fixed;
@@ -267,12 +271,12 @@ body {
   color: #fff;
   padding-top: 20vh;
 }
-/* line 127, ../sass/_navigation.scss */
+/* line 133, ../sass/_navigation.scss */
 .main-small-navigation .menu-primary-menu-container .menu li,
 .main-small-navigation .menu-menu-1-container .menu li {
   margin-bottom: 20px;
 }
-/* line 130, ../sass/_navigation.scss */
+/* line 136, ../sass/_navigation.scss */
 .main-small-navigation .menu-primary-menu-container .menu a,
 .main-small-navigation .menu-menu-1-container .menu a {
   color: #fff;

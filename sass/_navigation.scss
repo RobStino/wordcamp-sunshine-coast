@@ -103,9 +103,14 @@
 	z-index: 1000;
 }
 .menu-toggle:after {
-	content: "menuu";
-	font-size: 1rem;
-	color: #fff;
+	content: "";
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 25px;
+	background-image: url("http://localhost:8888/wordcamp/wp-content/uploads/2016/01/menu-toggle-1.png");
+	background-size: cover;
+	// z-index: 1100;
 }
 .main-small-navigation {
 	.menu-primary-menu-container,
@@ -124,6 +129,7 @@
 			line-height: 2rem;
 			color: #fff;
 			padding-top: 20vh;
+			// z-index: 1000;
 			li {
 				margin-bottom: 20px;
 			}
