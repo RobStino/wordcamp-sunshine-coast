@@ -23,7 +23,7 @@
 		height: 20px;
 		display: block;
 		position: absolute;
-		background-image: url("http://localhost:8888/wordcamp/wp-content/uploads/2016/01/Ticket_Icon.png");
+		background-image: url("https://sunshinecoast.wordcamp.org/2016/files/2016/01/Ticket_Icon.png");
 		background-size: 100%;
 		left: 18px;
 		top: 16px;
@@ -50,7 +50,7 @@
 // }
 .main-navigation {
 	position: absolute;
-	bottom: 20px;
+	bottom: 40px;
 	// background-color: $brand-color-1;
 	.menu-primary-menu-container,
 	.menu-menu-1-container {
@@ -65,8 +65,8 @@
 			display: inline-block;
 			a {
 				padding: 20px 28px;
-				color: $brand-color-3;
-				background-color: $brand-color-1;
+				color: $brand-color-white;
+				background-color: $brand-color-5;
 				font-size: 1rem;
 			}
 		}
@@ -93,6 +93,18 @@
 			a {
 				border-top-right-radius: 3px;
 				border-bottom-right-radius: 3px;
+			}
+		}
+	}
+}
+.home {
+	.main-navigation {
+		ul {
+			li {
+				a {
+					background-color: $brand-color-white;
+					color: $brand-color-5;
+				}
 			}
 		}
 	}

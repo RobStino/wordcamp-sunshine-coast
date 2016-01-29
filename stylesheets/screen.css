@@ -177,7 +177,7 @@ body {
   height: 20px;
   display: block;
   position: absolute;
-  background-image: url("http://localhost:8888/wordcamp/wp-content/uploads/2016/01/Ticket_Icon.png");
+  background-image: url("https://sunshinecoast.wordcamp.org/2016/files/2016/01/Ticket_Icon.png");
   background-size: 100%;
   left: 18px;
   top: 16px;
@@ -196,7 +196,7 @@ body {
 /* line 51, ../sass/_navigation.scss */
 .main-navigation {
   position: absolute;
-  bottom: 20px;
+  bottom: 40px;
 }
 /* line 55, ../sass/_navigation.scss */
 .main-navigation .menu-primary-menu-container,
@@ -215,8 +215,8 @@ body {
 /* line 66, ../sass/_navigation.scss */
 .main-navigation ul.menu li a {
   padding: 20px 28px;
-  color: #DC6A36;
-  background-color: #F9D05B;
+  color: #fff;
+  background-color: #51AD94;
   font-size: 1rem;
 }
 /* line 74, ../sass/_navigation.scss */
@@ -240,7 +240,13 @@ body {
   border-bottom-right-radius: 3px;
 }
 
-/* line 100, ../sass/_navigation.scss */
+/* line 104, ../sass/_navigation.scss */
+.home .main-navigation ul li a {
+  background-color: #fff;
+  color: #51AD94;
+}
+
+/* line 112, ../sass/_navigation.scss */
 .menu-toggle {
   font-size: 0;
   display: block;
@@ -250,7 +256,7 @@ body {
   z-index: 1000;
 }
 
-/* line 108, ../sass/_navigation.scss */
+/* line 120, ../sass/_navigation.scss */
 .menu-toggle:after {
   content: "";
   position: absolute;
@@ -261,7 +267,7 @@ body {
   background-size: cover;
 }
 
-/* line 121, ../sass/_navigation.scss */
+/* line 133, ../sass/_navigation.scss */
 .main-small-navigation .menu-primary-menu-container .menu,
 .main-small-navigation .menu-menu-1-container .menu {
   position: fixed;
@@ -278,12 +284,12 @@ body {
   color: #fff;
   padding-top: 20vh;
 }
-/* line 136, ../sass/_navigation.scss */
+/* line 148, ../sass/_navigation.scss */
 .main-small-navigation .menu-primary-menu-container .menu li,
 .main-small-navigation .menu-menu-1-container .menu li {
   margin-bottom: 20px;
 }
-/* line 139, ../sass/_navigation.scss */
+/* line 151, ../sass/_navigation.scss */
 .main-small-navigation .menu-primary-menu-container .menu a,
 .main-small-navigation .menu-menu-1-container .menu a {
   color: #fff;
@@ -429,7 +435,7 @@ body {
   width: 100%;
   min-height: 100vh;
   position: relative;
-  background-image: url("http://localhost:8888/wordcamp/wp-content/uploads/2016/01/Wordcamp_Sunshine_Coast_Hero_Background_6.jpg");
+  background-image: url("https://sunshinecoast.wordcamp.org/2016/files/2016/01/Wordcamp_Sunshine_Coast_Hero_Background_7.jpg");
   background-size: cover;
   padding-top: 70px;
   border: 20px solid #fff;
@@ -456,7 +462,7 @@ body {
   position: relative;
   width: 300px;
   height: 200px;
-  background-image: url("http://localhost:8888/wordcamp/wp-content/uploads/2016/01/WordCampSC_Logo_Primary_White.png");
+  background-image: url("https://sunshinecoast.wordcamp.org/2016/files/2016/01/WordCampSC_Logo_Primary_white.png");
   background-size: 100%;
   background-repeat: no-repeat;
   left: 50%;
