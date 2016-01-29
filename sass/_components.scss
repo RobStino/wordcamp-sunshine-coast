@@ -153,7 +153,12 @@ footer.entry-meta {
 }
 .entry-header,
 .entry-content {
+	width: 100%;
 	max-width: 680px;
 	margin: auto;
 	margin-bottom: 20px;
+	padding: 0 20px;
+}
+footer.entry-meta {
+	padding: 0 20px;
 }
