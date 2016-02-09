@@ -31,11 +31,13 @@
 		}
 	}
 }
-a {
-	color: $brand-color-4;
-	text-decoration: none;	
-	letter-spacing: 1px;
-}
+a,
 a:visited {
-	@extend a;
+  color: $brand-color-4;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+a:hover,
+a:focus {
+  color: $brand-color-2;
 }

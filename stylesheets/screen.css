@@ -140,10 +140,17 @@ li {
 }
 
 /* line 34, ../sass/_buttons.scss */
-a, a:visited {
+a,
+a:visited {
   color: #6DDACA;
   text-decoration: none;
   letter-spacing: 1px;
+}
+
+/* line 40, ../sass/_buttons.scss */
+a:hover,
+a:focus {
+  color: #E58F06;
 }
 
 /* line 5, ../sass/_layout.scss */
