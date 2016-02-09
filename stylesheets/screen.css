@@ -438,6 +438,11 @@ body {
   border-right: 2px solid #fff;
 }
 
+/* line 105, ../sass/_footer.scss */
+.wcb_widget_sponsors .sponsor-logo {
+  display: inline-block;
+}
+
 /* line 3, ../sass/_sections.scss */
 .home .site-header {
   width: 100%;
