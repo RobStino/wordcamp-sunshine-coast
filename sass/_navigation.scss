@@ -115,7 +115,7 @@
 	position: fixed;
 	top: 30px;
 	left: 30px;
-	z-index: 1000;
+	z-index: 1100;
 }
 .menu-toggle:after {
 	content: "";
@@ -144,7 +144,7 @@
 			line-height: 2rem;
 			color: #fff;
 			padding-top: 20vh;
-			// z-index: 1000;
+			z-index: 1000;
 			li {
 				margin-bottom: 20px;
 			}
