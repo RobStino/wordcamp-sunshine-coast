@@ -741,6 +741,11 @@ footer.entry-meta {
   padding: 0 20px;
 }
 
+/* line 166, ../sass/_components.scss */
+.page .entry-title {
+  display: none;
+}
+
 /* line 1, ../sass/_widgets.scss */
 .textwidget {
   font-size: 1rem;
