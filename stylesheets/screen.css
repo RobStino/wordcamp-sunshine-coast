@@ -224,18 +224,18 @@ body {
 .main-navigation ul.menu li a {
   padding: 20px 28px;
   color: #fff;
-  background-color: #51AD94;
+  background-color: #F9D05B;
   font-size: 1rem;
 }
 /* line 74, ../sass/_navigation.scss */
 .main-navigation ul.menu li.current-menu-item a {
   color: #fff;
-  background-color: #DC6A36;
+  background-color: #6DDACA;
 }
 /* line 80, ../sass/_navigation.scss */
 .main-navigation ul.menu li:hover a {
   color: #fff;
-  background-color: #DC6A36;
+  background-color: #6DDACA;
 }
 /* line 87, ../sass/_navigation.scss */
 .main-navigation ul.menu li:first-child a {
