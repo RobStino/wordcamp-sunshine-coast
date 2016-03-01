@@ -41,6 +41,7 @@
 		margin-bottom: 6px;
 	}
 }
+
 #footer-widget-5 {
 	width: 100%;
 	display: block;
@@ -115,4 +116,19 @@
 .wcb_widget_sponsors .sponsor-logo {
 	display: inline-block !important;
 }
-
+@media screen and (max-width: 992px) {
+    #footer-widget-1,
+	#footer-widget-2,
+	#footer-widget-3,
+	#footer-widget-4 {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 768px) {
+    #footer-widget-1,
+	#footer-widget-2,
+	#footer-widget-3,
+	#footer-widget-4 {
+		width: 100%;
+	}
+}
