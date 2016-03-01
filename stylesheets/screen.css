@@ -323,15 +323,28 @@ body {
   margin: auto;
   padding: 40px 0;
 }
+/* line 9, ../sass/_footer.scss */
+#footer-widgets .sponsor-logo {
+  max-width: 200px;
+}
+/* line 12, ../sass/_footer.scss */
+#footer-widgets .sponsor-level-title {
+  font-weight: 500;
+}
+/* line 15, ../sass/_footer.scss */
+#footer-widgets .sponsor-level {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
 
-/* line 10, ../sass/_footer.scss */
+/* line 20, ../sass/_footer.scss */
 #footer-widgets:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 13, ../sass/_footer.scss */
+/* line 23, ../sass/_footer.scss */
 #footer-widget-1,
 #footer-widget-2,
 #footer-widget-3,
@@ -340,7 +353,7 @@ body {
   display: block;
   float: left;
 }
-/* line 20, ../sass/_footer.scss */
+/* line 30, ../sass/_footer.scss */
 #footer-widget-1 .widget-title,
 #footer-widget-2 .widget-title,
 #footer-widget-3 .widget-title,
@@ -349,7 +362,7 @@ body {
   font-weight: 700;
   margin-bottom: 16px;
 }
-/* line 25, ../sass/_footer.scss */
+/* line 35, ../sass/_footer.scss */
 #footer-widget-1 .menu,
 #footer-widget-2 .menu,
 #footer-widget-3 .menu,
@@ -358,7 +371,7 @@ body {
   margin-left: 0;
   font-size: 1rem;
 }
-/* line 30, ../sass/_footer.scss */
+/* line 40, ../sass/_footer.scss */
 #footer-widget-1 li,
 #footer-widget-2 li,
 #footer-widget-3 li,
@@ -366,7 +379,7 @@ body {
   margin-bottom: 6px;
 }
 
-/* line 34, ../sass/_footer.scss */
+/* line 44, ../sass/_footer.scss */
 #footer-widget-5 {
   width: 100%;
   display: block;
@@ -374,18 +387,18 @@ body {
   text-align: center;
   padding: 20px 0;
 }
-/* line 40, ../sass/_footer.scss */
+/* line 50, ../sass/_footer.scss */
 #footer-widget-5 .footer-wapoolaba {
   max-width: 100px;
 }
-/* line 43, ../sass/_footer.scss */
+/* line 53, ../sass/_footer.scss */
 #footer-widget-5 .widget-title {
   position: relative;
   font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 50px;
 }
-/* line 49, ../sass/_footer.scss */
+/* line 59, ../sass/_footer.scss */
 #footer-widget-5 .widget-title:after {
   content: "";
   display: block;
@@ -399,7 +412,7 @@ body {
   background-color: #F9D05B;
   border-radius: 5px;
 }
-/* line 62, ../sass/_footer.scss */
+/* line 72, ../sass/_footer.scss */
 #footer-widget-5 .widget-title:before {
   content: "";
   display: block;
@@ -413,18 +426,18 @@ body {
   background-color: #DC6A36;
   border-radius: 7px;
 }
-/* line 75, ../sass/_footer.scss */
+/* line 85, ../sass/_footer.scss */
 #footer-widget-5 .menu {
   list-style: none;
   margin-left: 0;
   font-size: 1rem;
 }
-/* line 80, ../sass/_footer.scss */
+/* line 90, ../sass/_footer.scss */
 #footer-widget-5 li {
   margin-bottom: 6px;
 }
 
-/* line 85, ../sass/_footer.scss */
+/* line 95, ../sass/_footer.scss */
 .site-info {
   background-color: #6DDACA;
   margin: auto;
@@ -432,21 +445,21 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-/* line 92, ../sass/_footer.scss */
+/* line 102, ../sass/_footer.scss */
 .site-info p,
 .site-info a {
   display: inline-block;
   color: #fff;
   font-size: 1rem;
 }
-/* line 99, ../sass/_footer.scss */
+/* line 109, ../sass/_footer.scss */
 .site-info a:first-child {
   padding-right: 20px;
   margin-right: 12px;
   border-right: 2px solid #fff;
 }
 
-/* line 105, ../sass/_footer.scss */
+/* line 115, ../sass/_footer.scss */
 .wcb_widget_sponsors .sponsor-logo {
   display: inline-block !important;
 }

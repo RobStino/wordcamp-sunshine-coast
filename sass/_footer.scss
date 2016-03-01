@@ -6,6 +6,16 @@
 	max-width: 1080px;
 	margin: auto;
 	padding: 40px 0;
+	.sponsor-logo {
+		max-width: 200px;
+	}
+	.sponsor-level-title {
+		font-weight: 500;
+	}
+	.sponsor-level {
+	    margin-bottom: 20px;
+		border-bottom: 1px solid #ddd;
+	}	
 }
 #footer-widgets:after {
 	@include clearfix;
@@ -105,3 +115,4 @@
 .wcb_widget_sponsors .sponsor-logo {
 	display: inline-block !important;
 }
+
