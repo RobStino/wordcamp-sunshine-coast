@@ -388,17 +388,13 @@ body {
   padding: 20px 0;
 }
 /* line 51, ../sass/_footer.scss */
-#footer-widget-5 .footer-wapoolaba {
-  max-width: 100px;
-}
-/* line 54, ../sass/_footer.scss */
 #footer-widget-5 .widget-title {
   position: relative;
   font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 50px;
 }
-/* line 60, ../sass/_footer.scss */
+/* line 57, ../sass/_footer.scss */
 #footer-widget-5 .widget-title:after {
   content: "";
   display: block;
@@ -412,7 +408,7 @@ body {
   background-color: #F9D05B;
   border-radius: 5px;
 }
-/* line 73, ../sass/_footer.scss */
+/* line 70, ../sass/_footer.scss */
 #footer-widget-5 .widget-title:before {
   content: "";
   display: block;
@@ -426,18 +422,23 @@ body {
   background-color: #DC6A36;
   border-radius: 7px;
 }
-/* line 86, ../sass/_footer.scss */
+/* line 83, ../sass/_footer.scss */
 #footer-widget-5 .menu {
   list-style: none;
   margin-left: 0;
   font-size: 1rem;
 }
-/* line 91, ../sass/_footer.scss */
+/* line 88, ../sass/_footer.scss */
 #footer-widget-5 li {
   margin-bottom: 6px;
 }
 
-/* line 96, ../sass/_footer.scss */
+/* line 92, ../sass/_footer.scss */
+.footer-wapoolaba {
+  max-width: 100px;
+}
+
+/* line 95, ../sass/_footer.scss */
 .site-info {
   background-color: #6DDACA;
   margin: auto;
@@ -445,36 +446,42 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-/* line 103, ../sass/_footer.scss */
+/* line 102, ../sass/_footer.scss */
 .site-info p,
 .site-info a {
   display: inline-block;
   color: #fff;
   font-size: 1rem;
 }
-/* line 110, ../sass/_footer.scss */
+/* line 109, ../sass/_footer.scss */
 .site-info a:first-child {
   padding-right: 20px;
   margin-right: 12px;
   border-right: 2px solid #fff;
 }
 
-/* line 116, ../sass/_footer.scss */
+/* line 115, ../sass/_footer.scss */
 .wcb_widget_sponsors .sponsor-logo {
   display: inline-block !important;
 }
 
 @media screen and (max-width: 992px) {
-  /* line 120, ../sass/_footer.scss */
+  /* line 119, ../sass/_footer.scss */
   #footer-widget-1,
   #footer-widget-2,
   #footer-widget-3,
   #footer-widget-4 {
     width: 50%;
   }
+
+  /* line 125, ../sass/_footer.scss */
+  #footer-widgets {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 @media screen and (max-width: 768px) {
-  /* line 128, ../sass/_footer.scss */
+  /* line 131, ../sass/_footer.scss */
   #footer-widget-1,
   #footer-widget-2,
   #footer-widget-3,

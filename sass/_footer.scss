@@ -48,9 +48,6 @@
 	float: left;
 	text-align: center;
 	padding: 20px 0;
-	.footer-wapoolaba {
-		max-width: 100px;
-	}
 	.widget-title {
 		position: relative;
 		font-size: 1.2rem;
@@ -92,7 +89,9 @@
 		margin-bottom: 6px;
 	}
 }
-
+.footer-wapoolaba {
+	max-width: 100px;
+}
 .site-info {
 	background-color: $brand-color-4;
 	// max-width: 1080px;
@@ -122,6 +121,10 @@
 	#footer-widget-3,
 	#footer-widget-4 {
 		width: 50%;
+	}
+	#footer-widgets {
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
 @media screen and (max-width: 768px) {
