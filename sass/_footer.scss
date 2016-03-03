@@ -8,21 +8,32 @@
 	padding: 40px 0;
 	.sponsor-logo {
 		img {
-			height: 40px;
+			height: 25px;
 			width: auto;
 			margin: 0 10px;
 		}
+		.noosa img {
+			height: 45px;
+		}
+		.mooloolaba img {
+			height: 40px;
+		}
+		.coolum img {
+			height: 35px;
+		}
 	}
 	.sponsor-level-title {
-		font-weight: 500;
-		margin-bottom: 1rem;
-		font-size: 1rem;
+		// font-weight: 500;
+		// margin-bottom: 1rem;
+		// font-size: 1rem;
+		display: none;
 	}
 	.sponsor-level {
 	    margin-bottom: 20px;
 	    padding-bottom: 20px;
-		border-bottom: 2px solid #ddd;
+		// border-bottom: 2px solid #ddd;
 	}	
+
 }
 #footer-widgets:after {
 	@include clearfix;

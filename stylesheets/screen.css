@@ -336,31 +336,40 @@ body {
 }
 /* line 10, ../sass/_footer.scss */
 #footer-widgets .sponsor-logo img {
-  height: 40px;
+  height: 25px;
   width: auto;
   margin: 0 10px;
 }
-/* line 16, ../sass/_footer.scss */
-#footer-widgets .sponsor-level-title {
-  font-weight: 500;
-  margin-bottom: 1rem;
-  font-size: 1rem;
+/* line 15, ../sass/_footer.scss */
+#footer-widgets .sponsor-logo .noosa img {
+  height: 45px;
+}
+/* line 18, ../sass/_footer.scss */
+#footer-widgets .sponsor-logo .mooloolaba img {
+  height: 40px;
 }
 /* line 21, ../sass/_footer.scss */
+#footer-widgets .sponsor-logo .coolum img {
+  height: 35px;
+}
+/* line 25, ../sass/_footer.scss */
+#footer-widgets .sponsor-level-title {
+  display: none;
+}
+/* line 31, ../sass/_footer.scss */
 #footer-widgets .sponsor-level {
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 2px solid #ddd;
 }
 
-/* line 27, ../sass/_footer.scss */
+/* line 38, ../sass/_footer.scss */
 #footer-widgets:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 30, ../sass/_footer.scss */
+/* line 41, ../sass/_footer.scss */
 #footer-widget-1,
 #footer-widget-2,
 #footer-widget-3,
@@ -369,7 +378,7 @@ body {
   display: block;
   float: left;
 }
-/* line 37, ../sass/_footer.scss */
+/* line 48, ../sass/_footer.scss */
 #footer-widget-1 .widget-title,
 #footer-widget-2 .widget-title,
 #footer-widget-3 .widget-title,
@@ -378,7 +387,7 @@ body {
   font-weight: 700;
   margin-bottom: 16px;
 }
-/* line 42, ../sass/_footer.scss */
+/* line 53, ../sass/_footer.scss */
 #footer-widget-1 .menu,
 #footer-widget-2 .menu,
 #footer-widget-3 .menu,
@@ -387,7 +396,7 @@ body {
   margin-left: 0;
   font-size: 1rem;
 }
-/* line 47, ../sass/_footer.scss */
+/* line 58, ../sass/_footer.scss */
 #footer-widget-1 li,
 #footer-widget-2 li,
 #footer-widget-3 li,
@@ -395,7 +404,7 @@ body {
   margin-bottom: 6px;
 }
 
-/* line 52, ../sass/_footer.scss */
+/* line 63, ../sass/_footer.scss */
 #footer-widget-5 {
   width: 100%;
   display: block;
@@ -403,29 +412,29 @@ body {
   text-align: center;
   padding: 20px 0;
 }
-/* line 58, ../sass/_footer.scss */
+/* line 69, ../sass/_footer.scss */
 #footer-widget-5 .widget-title {
   position: relative;
   font-size: 1.2rem;
   font-weight: 700;
 }
-/* line 90, ../sass/_footer.scss */
+/* line 101, ../sass/_footer.scss */
 #footer-widget-5 .menu {
   list-style: none;
   margin-left: 0;
   font-size: 1rem;
 }
-/* line 95, ../sass/_footer.scss */
+/* line 106, ../sass/_footer.scss */
 #footer-widget-5 li {
   margin-bottom: 6px;
 }
 
-/* line 99, ../sass/_footer.scss */
+/* line 110, ../sass/_footer.scss */
 .widget img.footer-wapoolaba {
   max-width: 180px;
 }
 
-/* line 102, ../sass/_footer.scss */
+/* line 113, ../sass/_footer.scss */
 .site-info {
   background-color: #6DDACA;
   margin: auto;
@@ -433,27 +442,27 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-/* line 109, ../sass/_footer.scss */
+/* line 120, ../sass/_footer.scss */
 .site-info p,
 .site-info a {
   display: inline-block;
   color: #fff;
   font-size: 1rem;
 }
-/* line 116, ../sass/_footer.scss */
+/* line 127, ../sass/_footer.scss */
 .site-info a:first-child {
   padding-right: 20px;
   margin-right: 12px;
   border-right: 2px solid #fff;
 }
 
-/* line 122, ../sass/_footer.scss */
+/* line 133, ../sass/_footer.scss */
 .wcb_widget_sponsors .sponsor-logo {
   display: inline-block !important;
 }
 
 @media screen and (max-width: 992px) {
-  /* line 126, ../sass/_footer.scss */
+  /* line 137, ../sass/_footer.scss */
   #footer-widget-1,
   #footer-widget-2,
   #footer-widget-3,
@@ -461,14 +470,14 @@ body {
     width: 50%;
   }
 
-  /* line 132, ../sass/_footer.scss */
+  /* line 143, ../sass/_footer.scss */
   #footer-widgets {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 138, ../sass/_footer.scss */
+  /* line 149, ../sass/_footer.scss */
   #footer-widget-1,
   #footer-widget-2,
   #footer-widget-3,
