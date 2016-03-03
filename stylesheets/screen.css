@@ -885,3 +885,7 @@ form.contact-form input[type="submit"] {
   position: relative;
   top: -1px;
 }
+/* line 75, ../sass/_forms.scss */
+#tix .tix-submit select {
+  margin-bottom: 20px;
+}
