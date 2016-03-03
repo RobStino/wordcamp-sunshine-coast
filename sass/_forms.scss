@@ -21,3 +21,26 @@ form.contact-form {
 		@include transition;
 	}
 }
+#tix {
+	.tix-column-remaining {
+		display: none;
+	}
+	th,
+	td {
+		padding-bottom: 1rem;
+	}
+	td:first-child {
+		padding-right: 40px;
+	}
+	input[type="submit"] {
+		@extend .button;
+		background: none;
+		background-color: $brand-color-3;
+		border-color: $brand-color-3;
+		color: $brand-color-white;
+		background: #DC6A36;
+	    box-shadow: none;
+	    text-shadow: none;
+		@include transition;	
+	}
+}
