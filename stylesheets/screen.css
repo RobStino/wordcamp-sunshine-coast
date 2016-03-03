@@ -127,7 +127,7 @@ li {
 #after-header-widgets .textwidget {
   width: 100%;
   position: absolute;
-  top: -440px;
+  top: 440px;
 }
 /* line 14, ../sass/_buttons.scss */
 #after-header-widgets .hero-section-cta {
