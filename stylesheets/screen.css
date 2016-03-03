@@ -340,16 +340,16 @@ body {
   width: auto;
   margin: 0 10px;
 }
-/* line 15, ../sass/_footer.scss */
-#footer-widgets .sponsor-logo .noosa img {
+/* line 16, ../sass/_footer.scss */
+#footer-widgets .noosa .sponsor-logo img {
   height: 45px;
 }
-/* line 18, ../sass/_footer.scss */
-#footer-widgets .sponsor-logo .mooloolaba img {
+/* line 19, ../sass/_footer.scss */
+#footer-widgets .mooloolaba .sponsor-logo img {
   height: 40px;
 }
-/* line 21, ../sass/_footer.scss */
-#footer-widgets .sponsor-logo .coolum img {
+/* line 22, ../sass/_footer.scss */
+#footer-widgets .coolum .sponsor-logo img {
   height: 35px;
 }
 /* line 25, ../sass/_footer.scss */
