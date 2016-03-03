@@ -63,7 +63,14 @@ footer.entry-meta {
 .post {
 	max-width: 680px;
 	margin: auto;
-	padding: 40px 0;
+	padding: 40px 0 55px;
+	border-bottom: 2px solid $brand-color-1;
+}
+.post:first-child {
+	padding-top: 0;
+}
+.post:last-child {
+	border-bottom: 0;
 }
 .comments-area {
 	background-color: $brand-color-1;

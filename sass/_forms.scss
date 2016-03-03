@@ -19,11 +19,20 @@ form.contact-form {
 	    box-shadow: none;
 	    text-shadow: none;
 		@include transition;
+		margin-top: 1.5rem;
+	}
+	input[type="submit"]:hover {
+		background-color: darken($brand-color-3, 5%);
+		border-color: darken($brand-color-3, 5%);
 	}
 }
 #tix {
+	padding-top: 0;
 	.tix-column-remaining {
 		display: none;
+	}
+	.tix-column-price {
+		padding-right: 1rem;
 	}
 	th,
 	td {
@@ -55,6 +64,10 @@ form.contact-form {
 		@include transition;
 		text-transform: none;
     	letter-spacing: 1px;	
+	}
+	input[type="submit"]:hover {
+		background-color: darken($brand-color-3, 5%);
+		border-color: darken($brand-color-3, 5%);
 	}
 	#tix-coupon-container {
 
