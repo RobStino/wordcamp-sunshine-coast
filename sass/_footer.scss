@@ -70,7 +70,7 @@
 		position: relative;
 		font-size: 1.2rem;
 		font-weight: 700;
-		// margin-bottom: 50px;
+		margin-bottom: 50px;
 	}
 	// .widget-title:after {
 	// 	content: "";
@@ -130,8 +130,10 @@
 		border-right: 2px solid #fff;
 	} 
 }
-.wcb_widget_sponsors .sponsor-logo {
-	display: inline-block !important;
+.wcb_widget_sponsors {
+	.sponsor-logo {
+		display: inline-block !important;
+	}
 }
 @media screen and (max-width: 992px) {
     #footer-widget-1,

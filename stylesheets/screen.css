@@ -417,6 +417,7 @@ body {
   position: relative;
   font-size: 1.2rem;
   font-weight: 700;
+  margin-bottom: 50px;
 }
 /* line 101, ../sass/_footer.scss */
 #footer-widget-5 .menu {
@@ -456,13 +457,13 @@ body {
   border-right: 2px solid #fff;
 }
 
-/* line 133, ../sass/_footer.scss */
+/* line 134, ../sass/_footer.scss */
 .wcb_widget_sponsors .sponsor-logo {
   display: inline-block !important;
 }
 
 @media screen and (max-width: 992px) {
-  /* line 137, ../sass/_footer.scss */
+  /* line 139, ../sass/_footer.scss */
   #footer-widget-1,
   #footer-widget-2,
   #footer-widget-3,
@@ -470,14 +471,14 @@ body {
     width: 50%;
   }
 
-  /* line 143, ../sass/_footer.scss */
+  /* line 145, ../sass/_footer.scss */
   #footer-widgets {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 149, ../sass/_footer.scss */
+  /* line 151, ../sass/_footer.scss */
   #footer-widget-1,
   #footer-widget-2,
   #footer-widget-3,
