@@ -875,17 +875,18 @@ form.contact-form input[type="submit"] {
 #tix #tix-coupon-container input[type="text"] {
   border: 2px solid #eee;
   margin-right: 1rem;
+  width: auto;
 }
-/* line 65, ../sass/_forms.scss */
+/* line 66, ../sass/_forms.scss */
 #tix #tix-coupon-container input[type="submit"] {
   text-transform: none;
   letter-spacing: 1px;
-  padding: 4px 10px 5px;
+  padding: 9px 10px 10px;
   font-size: 0.8rem;
   position: relative;
   top: -1px;
 }
-/* line 75, ../sass/_forms.scss */
+/* line 76, ../sass/_forms.scss */
 #tix .tix-submit select {
   margin-bottom: 20px;
 }
