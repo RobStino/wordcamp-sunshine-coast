@@ -35,6 +35,12 @@ form.contact-form {
 	td:last-child {
 		padding-right: 0;
 	}
+	input,
+	textarea {
+		border: 2px solid #eee;
+		width: 100%;
+		padding: 8px 12px;
+	}
 	input[type="submit"] {
 		@extend .button;
 		background: none;

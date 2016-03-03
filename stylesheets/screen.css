@@ -849,6 +849,13 @@ form.contact-form input[type="submit"] {
   padding-right: 0;
 }
 /* line 38, ../sass/_forms.scss */
+#tix input,
+#tix textarea {
+  border: 2px solid #eee;
+  width: 100%;
+  padding: 8px 12px;
+}
+/* line 44, ../sass/_forms.scss */
 #tix input[type="submit"] {
   background: none;
   background-color: #DC6A36;
@@ -862,12 +869,12 @@ form.contact-form input[type="submit"] {
   text-transform: none;
   letter-spacing: 1px;
 }
-/* line 53, ../sass/_forms.scss */
+/* line 59, ../sass/_forms.scss */
 #tix #tix-coupon-container input[type="text"] {
   border: 2px solid #eee;
   margin-right: 1rem;
 }
-/* line 57, ../sass/_forms.scss */
+/* line 63, ../sass/_forms.scss */
 #tix #tix-coupon-container input[type="submit"] {
   text-transform: none;
   letter-spacing: 1px;
