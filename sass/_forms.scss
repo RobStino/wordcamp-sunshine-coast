@@ -13,7 +13,7 @@ form.contact-form {
 		@extend .button;
 		background: none;
 		background-color: $brand-color-3;
-		border-color: $brand-color-3;
+		border-color: #eee;
 		color: $brand-color-white;
 		background: #DC6A36;
 	    box-shadow: none;
@@ -32,6 +32,9 @@ form.contact-form {
 	td:first-child {
 		padding-right: 40px;
 	}
+	td:last-child {
+		padding-right: 0;
+	}
 	input[type="submit"] {
 		@extend .button;
 		background: none;
@@ -41,6 +44,23 @@ form.contact-form {
 		background: #DC6A36;
 	    box-shadow: none;
 	    text-shadow: none;
-		@include transition;	
+		@include transition;
+		text-transform: none;
+    	letter-spacing: 1px;	
+	}
+	#tix-coupon-container {
+
+		input[type="text"] {
+			border: 2px solid #eee;
+			margin-right: 1rem;
+		}
+		input[type="submit"] {
+			text-transform: none;
+		    letter-spacing: 1px;
+		    padding: 4px 10px 5px;
+		    font-size: 0.8rem;
+		    position: relative;
+		    top: -1px;
+		}
 	}
 }
