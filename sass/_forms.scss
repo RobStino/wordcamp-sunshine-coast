@@ -5,7 +5,7 @@ form.contact-form {
 	textarea {
 		width: 100%;
 	    margin-bottom: 20px;
-	    border: 2px solid #DC6A36;
+	    border: 2px solid #eee;
 	    border-radius: 2px;
 	    padding: 8px 12px;
 	}
@@ -13,7 +13,7 @@ form.contact-form {
 		@extend .button;
 		background: none;
 		background-color: $brand-color-3;
-		border-color: #eee;
+		border-color: $brand-color-3;
 		color: $brand-color-white;
 		background: #DC6A36;
 	    box-shadow: none;

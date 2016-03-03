@@ -814,7 +814,7 @@ form.contact-form input[type="email"],
 form.contact-form textarea {
   width: 100%;
   margin-bottom: 20px;
-  border: 2px solid #DC6A36;
+  border: 2px solid #eee;
   border-radius: 2px;
   padding: 8px 12px;
 }
@@ -822,7 +822,7 @@ form.contact-form textarea {
 form.contact-form input[type="submit"] {
   background: none;
   background-color: #DC6A36;
-  border-color: #eee;
+  border-color: #DC6A36;
   color: #fff;
   background: #DC6A36;
   box-shadow: none;
