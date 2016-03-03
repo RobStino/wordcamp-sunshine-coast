@@ -29,8 +29,7 @@
 		display: none;
 	}
 	.sponsor-level {
-	    margin-bottom: 20px;
-	    padding-bottom: 20px;
+	    padding-bottom: 40px;
 		// border-bottom: 2px solid #ddd;
 	}	
 
@@ -65,12 +64,15 @@
 	display: block;
 	float: left;
 	text-align: center;
-	padding: 20px 0;
+	padding-top: 20px;
 	.widget-title {
 		position: relative;
 		font-size: 1.2rem;
 		font-weight: 700;
-		margin-bottom: 50px;
+		margin-bottom: 40px;
+	}
+	aside {
+		margin-bottom: 0;
 	}
 	// .widget-title:after {
 	// 	content: "";

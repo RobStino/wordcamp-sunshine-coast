@@ -358,18 +358,17 @@ body {
 }
 /* line 31, ../sass/_footer.scss */
 #footer-widgets .sponsor-level {
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
-/* line 38, ../sass/_footer.scss */
+/* line 37, ../sass/_footer.scss */
 #footer-widgets:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 41, ../sass/_footer.scss */
+/* line 40, ../sass/_footer.scss */
 #footer-widget-1,
 #footer-widget-2,
 #footer-widget-3,
@@ -378,7 +377,7 @@ body {
   display: block;
   float: left;
 }
-/* line 48, ../sass/_footer.scss */
+/* line 47, ../sass/_footer.scss */
 #footer-widget-1 .widget-title,
 #footer-widget-2 .widget-title,
 #footer-widget-3 .widget-title,
@@ -387,7 +386,7 @@ body {
   font-weight: 700;
   margin-bottom: 16px;
 }
-/* line 53, ../sass/_footer.scss */
+/* line 52, ../sass/_footer.scss */
 #footer-widget-1 .menu,
 #footer-widget-2 .menu,
 #footer-widget-3 .menu,
@@ -396,7 +395,7 @@ body {
   margin-left: 0;
   font-size: 1rem;
 }
-/* line 58, ../sass/_footer.scss */
+/* line 57, ../sass/_footer.scss */
 #footer-widget-1 li,
 #footer-widget-2 li,
 #footer-widget-3 li,
@@ -404,38 +403,42 @@ body {
   margin-bottom: 6px;
 }
 
-/* line 63, ../sass/_footer.scss */
+/* line 62, ../sass/_footer.scss */
 #footer-widget-5 {
   width: 100%;
   display: block;
   float: left;
   text-align: center;
-  padding: 20px 0;
+  padding-top: 20px;
 }
-/* line 69, ../sass/_footer.scss */
+/* line 68, ../sass/_footer.scss */
 #footer-widget-5 .widget-title {
   position: relative;
   font-size: 1.2rem;
   font-weight: 700;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
-/* line 101, ../sass/_footer.scss */
+/* line 74, ../sass/_footer.scss */
+#footer-widget-5 aside {
+  margin-bottom: 0;
+}
+/* line 103, ../sass/_footer.scss */
 #footer-widget-5 .menu {
   list-style: none;
   margin-left: 0;
   font-size: 1rem;
 }
-/* line 106, ../sass/_footer.scss */
+/* line 108, ../sass/_footer.scss */
 #footer-widget-5 li {
   margin-bottom: 6px;
 }
 
-/* line 110, ../sass/_footer.scss */
+/* line 112, ../sass/_footer.scss */
 .widget img.footer-wapoolaba {
   max-width: 180px;
 }
 
-/* line 113, ../sass/_footer.scss */
+/* line 115, ../sass/_footer.scss */
 .site-info {
   background-color: #6DDACA;
   margin: auto;
@@ -443,27 +446,27 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-/* line 120, ../sass/_footer.scss */
+/* line 122, ../sass/_footer.scss */
 .site-info p,
 .site-info a {
   display: inline-block;
   color: #fff;
   font-size: 1rem;
 }
-/* line 127, ../sass/_footer.scss */
+/* line 129, ../sass/_footer.scss */
 .site-info a:first-child {
   padding-right: 20px;
   margin-right: 12px;
   border-right: 2px solid #fff;
 }
 
-/* line 134, ../sass/_footer.scss */
+/* line 136, ../sass/_footer.scss */
 .wcb_widget_sponsors .sponsor-logo {
   display: inline-block !important;
 }
 
 @media screen and (max-width: 992px) {
-  /* line 139, ../sass/_footer.scss */
+  /* line 141, ../sass/_footer.scss */
   #footer-widget-1,
   #footer-widget-2,
   #footer-widget-3,
@@ -471,14 +474,14 @@ body {
     width: 50%;
   }
 
-  /* line 145, ../sass/_footer.scss */
+  /* line 147, ../sass/_footer.scss */
   #footer-widgets {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 151, ../sass/_footer.scss */
+  /* line 153, ../sass/_footer.scss */
   #footer-widget-1,
   #footer-widget-2,
   #footer-widget-3,
