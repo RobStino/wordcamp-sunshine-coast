@@ -35,7 +35,9 @@ form.contact-form {
 	td:last-child {
 		padding-right: 0;
 	}
-	input,
+	input[type="text"],
+	input[type="email"],
+	select,
 	textarea {
 		border: 2px solid #eee;
 		width: 100%;
