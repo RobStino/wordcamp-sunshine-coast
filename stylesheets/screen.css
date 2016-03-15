@@ -584,6 +584,7 @@ footer.entry-meta {
   margin: 0 auto 1em;
   display: block;
   max-width: 680px;
+  height: auto;
   top: -1em;
   position: relative; }
 
