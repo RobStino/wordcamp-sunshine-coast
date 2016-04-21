@@ -814,6 +814,17 @@ footer.entry-meta {
   display: none;
 }
 
+/* line 177, ../sass/_components.scss */
+.wcpt-schedule {
+  border: 1px Solid #DC6A36;
+  border-radius: 2px;
+}
+/* line 180, ../sass/_components.scss */
+.wcpt-schedule td {
+  border: 1px solid #DC6A36;
+  padding: 10px;
+}
+
 /* line 1, ../sass/_widgets.scss */
 .textwidget {
   font-size: 1rem;
