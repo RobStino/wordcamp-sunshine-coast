@@ -820,6 +820,15 @@ footer.entry-meta {
   border-radius: 2px;
 }
 /* line 180, ../sass/_components.scss */
+.wcpt-schedule thead {
+  background-color: #DC6A36;
+  color: #fff;
+}
+/* line 183, ../sass/_components.scss */
+.wcpt-schedule thead th {
+  padding: 10px;
+}
+/* line 187, ../sass/_components.scss */
 .wcpt-schedule td {
   border: 1px solid #DC6A36;
   padding: 10px;
