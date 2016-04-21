@@ -75,7 +75,7 @@ footer.entry-meta {
 .comments-area {
 	background-color: $brand-color-1;
 	padding: 40px 0;
-	color: #fff;	
+	color: #fff;
 	.comments-title,
 	.commentlist,
 	.comment-respond {
@@ -165,6 +165,16 @@ footer.entry-meta {
 	margin: auto;
 	margin-bottom: 20px;
 	padding: 0 20px;
+}
+.site-content {
+	.wp-post-image {
+		margin: 0 auto 1em;
+		display: block;
+		max-width: 680px;
+		height: auto;
+		top: -1em;
+		position: relative;
+	}
 }
 footer.entry-meta {
 	padding: 0 20px;
