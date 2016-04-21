@@ -844,10 +844,18 @@ footer.entry-meta {
   padding: 10px;
 }
 /* line 201, ../sass/_components.scss */
+.wcpt-schedule a {
+  letter-spacing: 0;
+}
+/* line 204, ../sass/_components.scss */
 .wcpt-schedule a.wcpt-session-title {
   color: #555;
   display: block;
   font-weight: 700;
+}
+/* line 209, ../sass/_components.scss */
+.wcpt-schedule a.wcpt-session-title:hover {
+  color: #E58F06;
 }
 
 /* line 1, ../sass/_widgets.scss */

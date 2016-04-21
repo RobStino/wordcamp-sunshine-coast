@@ -198,9 +198,15 @@ footer.entry-meta {
 		border: 1px solid #F9D05B;
     	padding: 10px;
 	}
+	a {
+		letter-spacing: 0;
+	}
 	a.wcpt-session-title {
 		color: #555;
 	    display: block;
 	    font-weight: 700;
+	}
+	a.wcpt-session-title:hover {
+		color: #E58F06;
 	}
 }
